@@ -33,10 +33,13 @@
           <mxGeometry x="170" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yWEKpOkfy3Jw7eenvQe8-12" value="Реестр отработанных часов" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="630" width="140" height="60" as="geometry" />
+          <mxGeometry x="600" y="630" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yWEKpOkfy3Jw7eenvQe8-13" value="id движка" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="yWEKpOkfy3Jw7eenvQe8-12">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yWEKpOkfy3Jw7eenvQe8-30" value="Мото часы" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="yWEKpOkfy3Jw7eenvQe8-12">
-          <mxGeometry y="30" width="140" height="30" as="geometry" />
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yWEKpOkfy3Jw7eenvQe8-18" value="Анализатор переключения" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="330" y="720" width="30" height="60" as="geometry" />
@@ -63,9 +66,6 @@
         </mxCell>
         <mxCell id="yWEKpOkfy3Jw7eenvQe8-36" value="Дата тех обслуживания" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="yWEKpOkfy3Jw7eenvQe8-34">
           <mxGeometry y="60" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="yWEKpOkfy3Jw7eenvQe8-13" value="id движка" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="670" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
