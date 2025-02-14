@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.13">
   <diagram name="Страница — 1" id="_v5LaGTC0-DqnQ5YdJLc">
-    <mxGraphModel dx="1816" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2876" dy="1114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -33,7 +33,7 @@
           <mxGeometry x="170" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yWEKpOkfy3Jw7eenvQe8-12" value="Реестр отработанных часов" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="530" y="640" width="140" height="90" as="geometry" />
+          <mxGeometry x="490" y="625" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="yWEKpOkfy3Jw7eenvQe8-13" value="id движка" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="yWEKpOkfy3Jw7eenvQe8-12" vertex="1">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
@@ -60,7 +60,7 @@
           <mxGeometry x="270" y="610" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yWEKpOkfy3Jw7eenvQe8-34" value="Реестр тех обслуживания" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="540" y="760" width="140" height="90" as="geometry">
+          <mxGeometry x="490" y="740" width="140" height="90" as="geometry">
             <mxRectangle x="600" y="750" width="180" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -102,6 +102,9 @@
         </mxCell>
         <mxCell id="zOdYqrqbQJjYuCrktWeD-26" value="Выходной ток" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zOdYqrqbQJjYuCrktWeD-23">
           <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zOdYqrqbQJjYuCrktWeD-28" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;ТЗ Дерики&lt;/h1&gt;&lt;p&gt;Задание:&lt;/p&gt;&lt;p&gt;Есть несколько таблиц данных:&lt;/p&gt;&lt;p&gt;1) схема соединения частотников и движков, которая может меняться со временем&amp;nbsp;&lt;/p&gt;&lt;p&gt;2) таблица режимов работы каждого из частотников таблица выхода движков из строя,&amp;nbsp;&lt;/p&gt;&lt;p&gt;3) таблица тех обслуживания движков&amp;nbsp;&lt;/p&gt;&lt;p&gt;4) таблица наработанных часов движком при изменении топологии частотников и движков&amp;nbsp;&lt;/p&gt;&lt;p&gt;Необходимо предлагать оптимальное решение при&amp;nbsp; выходе движка из строя&lt;/p&gt;&lt;p&gt;Надо выбирать оптимальное решение топологии и режима частотников&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="60" width="590" height="260" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
